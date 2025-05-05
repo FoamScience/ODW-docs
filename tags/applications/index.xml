@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Applications on Automated API and Unit testing Docs for OpenFOAM libs</title><link>https://foamscience.github.io/ODW-docs/tags/applications/</link><description>Recent content in Applications on Automated API and Unit testing Docs for OpenFOAM libs</description><generator>Hugo</generator><language>en</language><atom:link href="https://foamscience.github.io/ODW-docs/tags/applications/index.xml" rel="self" type="application/rss+xml"/><item><title>ADRs</title><link>https://foamscience.github.io/ODW-docs/adr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/adr/</guid><description>&lt;p>We abuse ADRs to record any activity on the repo, may it be related to architecture, design, implementation or any other aspect that affects the project&amp;rsquo;s future. ADRs are categorized by their status as follows:&lt;/p>
+&lt;ul>
+&lt;li>&lt;i class="fa-solid fa-hourglass-start -text-success">&lt;/i> Proposed ADR: written out, and was investigated&lt;/li>
+&lt;li>&lt;i class="fa-solid fa-magnifying-glass -text-success">&lt;/i> Under-review ADR: reviewing viability of acceptance&lt;/li>
+&lt;li>&lt;i class="fa-solid fa-check-square -text-primary">&lt;/i> Enforced ADR: accepted as viable, and set in effect&lt;/li>
+&lt;li>&lt;i class="fa-solid fa-square-xmark -text-danger">&lt;/i> Rejected ADR: dropped out&lt;/li>
+&lt;li>&lt;i class="fa-solid fa-hourglass-start fa-rotate-180 -text-secondary">&lt;/i> Deprecated ADR: was in effect, but now preparing to retire&lt;/li>
+&lt;li>&lt;i class="fa-solid fa-arrow-right-arrow-left -text-success">&lt;/i> Superseded ADR: was in effect, but was replaced by another decision&lt;/li>
+&lt;/ul></description></item></channel></rss>

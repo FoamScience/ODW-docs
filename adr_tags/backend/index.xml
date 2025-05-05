@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Backend on Automated API and Unit testing Docs for OpenFOAM libs</title><link>https://foamscience.github.io/ODW-docs/adr_tags/backend/</link><description>Recent content in Backend on Automated API and Unit testing Docs for OpenFOAM libs</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 05 May 2025 15:13:59 +0200</lastBuildDate><atom:link href="https://foamscience.github.io/ODW-docs/adr_tags/backend/index.xml" rel="self" type="application/rss+xml"/><item><title>Use Markdown Architectural Decision Records</title><link>https://foamscience.github.io/ODW-docs/adr/0000-use-markdown-architectural-decision-records/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/adr/0000-use-markdown-architectural-decision-records/</guid><description>&lt;h2 id="context-and-problem-statement">Context and Problem Statement&lt;/h2>
+&lt;p>We want to record architectural decisions made in this project independent whether decisions concern the architecture (&amp;ldquo;architectural decision record&amp;rdquo;), the code, or other fields.&lt;/p>
+&lt;p>Which format and structure should these records follow?&lt;/p>
+&lt;h2 id="considered-options">Considered Options&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://adr.github.io/madr/">MADR&lt;/a> 4.0.0 – The Markdown Architectural Decision Records&lt;/li>
+&lt;li>&lt;a href="http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions">Michael Nygard&amp;rsquo;s template&lt;/a> – The first incarnation of the term &amp;ldquo;ADR&amp;rdquo;&lt;/li>
+&lt;li>&lt;a href="https://www.infoq.com/articles/sustainable-architectural-design-decisions">Sustainable Architectural Decisions&lt;/a> – The Y-Statements&lt;/li>
+&lt;li>Formless – No conventions for file format and structure&lt;/li>
+&lt;/ul>
+&lt;h2 id="decision-outcome">Decision Outcome&lt;/h2>
+&lt;p>Chosen option: A slightly Modified &amp;ldquo;MADR 4.0.0&amp;rdquo;, because&lt;/p></description></item></channel></rss>

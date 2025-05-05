@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ODW on Automated API and Unit testing Docs for OpenFOAM libs</title><link>https://foamscience.github.io/ODW-docs/</link><description>Recent content in ODW on Automated API and Unit testing Docs for OpenFOAM libs</description><generator>Hugo</generator><language>en</language><atom:link href="https://foamscience.github.io/ODW-docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>https://foamscience.github.io/ODW-docs/docs/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/docs/overview/</guid><description>&lt;p>This page is basically a recap of what would be a user-guide on how to use &lt;a href="https://github.com/FoamScience/ODW">ODW&lt;/a> to generate documentation sites for your own OpenFOAM projects. It&amp;rsquo;s recommended that you follow the example structure too.&lt;/p>
+&lt;h2 id="what-is-odw">What is ODW?&lt;/h2>
+&lt;p>ODW is a &lt;a href="https://gohugo.io/hugo-modules/">Hugo module&lt;/a> with a special focus on generating API docs for OpenFOAM libraries in an &amp;ldquo;unattended&amp;rdquo; manner.&lt;/p>
+&lt;p>The &lt;a href="https://gohugo.io">Hugo&lt;/a> static site generator builds HTML docs from Markdown files. &lt;a href="https://github.com/FoamScience/FoamCD">FoamCD&lt;/a> parses and generates Markdown documentation for the OpenFOAM libraries (or any other C++ libs) users point to. This allows to host such websites at no cost on multiple platforms (Github Pages being our main target) and the generation of the docs can be just another step in the user&amp;rsquo;s CI/CD workflow!&lt;/p></description></item><item><title>Your first website</title><link>https://foamscience.github.io/ODW-docs/docs/getting-started/first-docs-website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/docs/getting-started/first-docs-website/</guid><description>&lt;h2 id="perquisites">Perquisites&lt;/h2>
+&lt;p>In principle, we need:&lt;/p>
+&lt;ul>
+&lt;li>An OpenFOAM installation&lt;/li>
+&lt;li>&lt;a href="https://github.com/astral-sh/uv">UV&lt;/a> to manage the Python dependencies&lt;/li>
+&lt;li>&lt;a href="https://go.dev/">Golang&lt;/a> and &lt;a href="https://gohugo.io/">Hugo&lt;/a> latest &lt;strong>extended&lt;/strong> version.&lt;/li>
+&lt;/ul>
+&lt;p>You can check the exact requirements in this &lt;a href="https://github.com/FoamScience/ODW/blob/main/apptainer/odw.def">apptainer definition file&lt;/a>. Alternatively you can create a container out of that definition with the help of the &lt;a href="https://github.com/FoamScience/openfoam-apptainer-packaging">OpenFOAM Apptainer Packaging mechanism&lt;/a>.&lt;/p>
+&lt;h2 id="create-a-new-website">Create a new website&lt;/h2>
+&lt;p>You can create an empty website with:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new site my-docs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Since ODW is a hugo module, you can attach it to your website with:&lt;/p></description></item><item><title>Example Page</title><link>https://foamscience.github.io/ODW-docs/docs/getting-started/example-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Check the &lt;a href="https://foamscience.github.io/ODW-docs/docs/overview">Overview&lt;/a> page before anything else. Then you may proceed to installing the dependencies and getting your site up and running.&lt;/p>
+
+&lt;/div>
+
+
+
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>basicReflectedModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_basicReflectedModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_basicReflectedModel/</guid><description/></item><item><title>child1BasicReflectedModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_child1BasicReflectedModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_child1BasicReflectedModel/</guid><description/></item><item><title>child2BasicReflectedModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_child2BasicReflectedModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_child2BasicReflectedModel/</guid><description/></item><item><title>childFullReflectedModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_childFullReflectedModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_childFullReflectedModel/</guid><description/></item><item><title>childOpenFOAMModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_childOpenFOAMModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_childOpenFOAMModel/</guid><description/></item><item><title>fullReflectedModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_fullReflectedModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_fullReflectedModel/</guid><description/></item><item><title>OpenFOAMModel</title><link>https://foamscience.github.io/ODW-docs/api/Foam_OpenFOAMModel/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/api/Foam_OpenFOAMModel/</guid><description/></item><item><title>A first release</title><link>https://foamscience.github.io/ODW-docs/blog/2025/05/05/a-first-release/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/blog/2025/05/05/a-first-release/</guid><description>&lt;h2 id="version-012-is-out">Version 0.1.2 is out!&lt;/h2>
+&lt;p>This version accommodates features offered by &lt;strong>FoamCD&lt;/strong> with OpenFOAM and OpenFOAM-reflections plugins turned on. Here is a changelog of the underlying FoamCD parser:&lt;/p>
+&lt;h3 id="foamcd-012-2025-05-04">FoamCD 0.1.2 (2025-05-04)&lt;/h3>
+&lt;h4 id="feat">Feat&lt;/h4>
+&lt;ul>
+&lt;li>support member type aliases&lt;/li>
+&lt;li>parse class fields&lt;/li>
+&lt;li>skip forward declarations in markdown generation&lt;/li>
+&lt;li>handle enclosed types&lt;/li>
+&lt;li>config generation reads existing configs first&lt;/li>
+&lt;/ul>
+&lt;h4 id="fix">Fix&lt;/h4>
+&lt;ul>
+&lt;li>skip forward declarations in class index pages&lt;/li>
+&lt;li>bug with method/field access specifiers&lt;/li>
+&lt;li>bug with reporting class children entities&lt;/li>
+&lt;li>enclosed entities names and scopes&lt;/li>
+&lt;li>markdown output for member fields&lt;/li>
+&lt;li>better handling of scope-resolution notation in method/function definition&lt;/li>
+&lt;/ul>
+&lt;h3 id="foamcd-011-2025-04-29">FoamCD 0.1.1 (2025-04-29)&lt;/h3>
+&lt;h4 id="feat-1">Feat&lt;/h4>
+&lt;ul>
+&lt;li>add ODW unit-test report -&amp;gt; markdown file&lt;/li>
+&lt;li>add plugin to extract information from self-reflecting OpenFOAM code&lt;/li>
+&lt;li>tree-sitter parser forced for unit tests&lt;/li>
+&lt;li>improved parsed docs and url pattern application&lt;/li>
+&lt;li>overridable config entries on generation&lt;/li>
+&lt;/ul>
+&lt;h4 id="fix-1">Fix&lt;/h4>
+&lt;ul>
+&lt;li>update config structure + add option to skip entities&lt;/li>
+&lt;li>repair plugin system&lt;/li>
+&lt;li>source file handling as absolute path in compile_commmands&lt;/li>
+&lt;li>handle relative include paths in compile_commands.json&lt;/li>
+&lt;/ul>
+&lt;h3 id="foamcd-010-2025-04-27">FoamCD 0.1.0 (2025-04-27)&lt;/h3>
+&lt;h4 id="breaking-change">BREAKING CHANGE&lt;/h4>
+&lt;ul>
+&lt;li>a non-null column in inheritance table, for&lt;br />
+access_level, is now required.&lt;/li>
+&lt;/ul>
+&lt;h4 id="feat-2">Feat&lt;/h4>
+&lt;ul>
+&lt;li>deprecation detection&lt;/li>
+&lt;li>specialize method docs URI&lt;/li>
+&lt;li>attach namespaces to entities + improved mapping file -&amp;gt; url&lt;/li>
+&lt;li>better detection of defaulted/deleted methods&lt;/li>
+&lt;li>contributers list from git&lt;/li>
+&lt;li>markdown frontend to database entities&lt;/li>
+&lt;li>basic git ops for author extraction&lt;/li>
+&lt;li>most popular compiler attributes&lt;/li>
+&lt;li>first implementation of a fallback tree-sitter parser&lt;/li>
+&lt;li>static, return_type and few other new db fields&lt;/li>
+&lt;li>update openfoam-plugin to adequetly parse RTS-features of OpenFOAM classes&lt;/li>
+&lt;li>add openfoam RTS class fetching to db&lt;/li>
+&lt;li>thorough function metadata extraction&lt;/li>
+&lt;li>proper inheritance, declaration-definition links and namespace tracking&lt;/li>
+&lt;li>first versions of openmp, openacc, and openfoam plugins&lt;/li>
+&lt;li>plugin mechanism to add feature detectors dynamically&lt;/li>
+&lt;li>add basic parsing and db exporting&lt;/li>
+&lt;/ul>
+&lt;h4 id="fix-2">Fix&lt;/h4>
+&lt;ul>
+&lt;li>prep plugins for publishing&lt;/li>
+&lt;li>unknown cursor name&lt;/li>
+&lt;li>signatures for class entities&lt;/li>
+&lt;li>improve constructor parsing&lt;/li>
+&lt;li>proper ctor/dtor signatures and (no) return types&lt;/li>
+&lt;li>URI handling in declaration/definitionfile templating&lt;/li>
+&lt;li>path normalization when generating markdown files&lt;/li>
+&lt;li>improve handling of existing database&lt;/li>
+&lt;li>logger bug in config generation&lt;/li>
+&lt;li>update default config&lt;/li>
+&lt;li>improve get_class_stats from codebase-wide database selections&lt;/li>
+&lt;li>avoid circular dependency byadding common constants file&lt;/li>
+&lt;li>detection of c++20 features&lt;/li>
+&lt;li>detection of c++17 features&lt;/li>
+&lt;li>detection of c++14 features&lt;/li>
+&lt;li>detection of c++11 features&lt;/li>
+&lt;/ul>
+&lt;h4 id="refactor">Refactor&lt;/h4>
+&lt;ul>
+&lt;li>prep for 1st published version + versioning&lt;/li>
+&lt;li>parser feature detection to get rid of horrible if-else chains&lt;/li>
+&lt;/ul></description></item><item><title>Easy API documentation with Hugo and FoamCD</title><link>https://foamscience.github.io/ODW-docs/blog/2025/05/05/easy-api-documentation-with-hugo-and-foamcd/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/blog/2025/05/05/easy-api-documentation-with-hugo-and-foamcd/</guid><description>&lt;p>Initial work on the companion website project for documenting the design and implementation&lt;br />
+of my PhD project (Meshless methods in CFD applications) has been completed. The project&lt;br />
+is in a stable state hence made available for the wide public to use. As always, all kinds of PRs are&lt;br />
+very much welcome!&lt;/p></description></item><item><title>Use Markdown Architectural Decision Records</title><link>https://foamscience.github.io/ODW-docs/adr/0000-use-markdown-architectural-decision-records/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/adr/0000-use-markdown-architectural-decision-records/</guid><description>&lt;h2 id="context-and-problem-statement">Context and Problem Statement&lt;/h2>
+&lt;p>We want to record architectural decisions made in this project independent whether decisions concern the architecture (&amp;ldquo;architectural decision record&amp;rdquo;), the code, or other fields.&lt;/p>
+&lt;p>Which format and structure should these records follow?&lt;/p>
+&lt;h2 id="considered-options">Considered Options&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://adr.github.io/madr/">MADR&lt;/a> 4.0.0 – The Markdown Architectural Decision Records&lt;/li>
+&lt;li>&lt;a href="http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions">Michael Nygard&amp;rsquo;s template&lt;/a> – The first incarnation of the term &amp;ldquo;ADR&amp;rdquo;&lt;/li>
+&lt;li>&lt;a href="https://www.infoq.com/articles/sustainable-architectural-design-decisions">Sustainable Architectural Decisions&lt;/a> – The Y-Statements&lt;/li>
+&lt;li>Formless – No conventions for file format and structure&lt;/li>
+&lt;/ul>
+&lt;h2 id="decision-outcome">Decision Outcome&lt;/h2>
+&lt;p>Chosen option: A slightly Modified &amp;ldquo;MADR 4.0.0&amp;rdquo;, because&lt;/p></description></item><item><title>Missing</title><link>https://foamscience.github.io/ODW-docs/contributors/__missing__/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/contributors/__missing__/</guid><description>&lt;p>This means the documentation software could not infer the contributor from the header and source files. This is mostly fine for external libraries but your code shouldn&amp;rsquo;t be missing authors&amp;hellip;&lt;/p>
+&lt;p>Currently, the only mode of inferring authors is through Git author lookups of specific ranges of lines. If you are documenting a project that is not managed by Git, you can either:&lt;/p>
+&lt;ul>
+&lt;li>Initialize Git, then commit everything if you are the sole developer of your project.&lt;/li>
+&lt;li>Or, Open a documentation issue, mentioning your specific use case.&lt;/li>
+&lt;/ul>
+
+
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>If you build the documentation locally, you may get missing authors for lines that are not committed yet!&lt;/p></description></item><item><title>Mohammed Elwardi Fadeli</title><link>https://foamscience.github.io/ODW-docs/contributors/elwardi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/contributors/elwardi/</guid><description>&lt;p>Main developer of this toolkit: A CFD enthusiast with passion for software development.&lt;/p></description></item><item><title>Unit tests for reflections - basicReflection</title><link>https://foamscience.github.io/ODW-docs/tests/reflections/basicreflectiontests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/tests/reflections/basicreflectiontests/</guid><description>&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note:&lt;/h4>
+
+ &lt;p>The unit tests pages are automatically generated from the test reports. Some important points to mention:&lt;/p>
+&lt;ul>
+&lt;li>The random number generator is seeded with the same seed for parallel/serial runs for the same test case.&lt;/li>
+&lt;li>Number of passing tests is the &amp;ldquo;effective&amp;rdquo; one (including the ones that fail but are expected to fail)&amp;quot;.&lt;/li>
+&lt;li>Number of failing tests is the &amp;ldquo;effective&amp;rdquo; one (only the ones that fail and are not expected to fail)&amp;quot;.&lt;/li>
+&lt;/ul>
+
+&lt;/div>
+
+&lt;h2 id="serial-unit-tests-for-basicreflection-in-reflections-library-on-cavity-case">Serial unit tests for &lt;code>basicReflection&lt;/code> in &lt;code>reflections&lt;/code> library on &lt;code>[cavity]&lt;/code> case&lt;/h2>
+&lt;p>Tests were performed using &lt;a href="https://github.com/catchorg/Catch2">Catch2&lt;/a> version &lt;code>3.6.0&lt;/code> (rng-seed: &lt;code>3975461408&lt;/code>) with the following filters: &lt;code>[serial] [cavity] [#basicReflectionTests]&lt;/code>.&lt;/p></description></item><item><title>Unit tests for reflections - fullReflection</title><link>https://foamscience.github.io/ODW-docs/tests/reflections/fullreflectiontests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/tests/reflections/fullreflectiontests/</guid><description>&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note:&lt;/h4>
+
+ &lt;p>The unit tests pages are automatically generated from the test reports. Some important points to mention:&lt;/p>
+&lt;ul>
+&lt;li>The random number generator is seeded with the same seed for parallel/serial runs for the same test case.&lt;/li>
+&lt;li>Number of passing tests is the &amp;ldquo;effective&amp;rdquo; one (including the ones that fail but are expected to fail)&amp;quot;.&lt;/li>
+&lt;li>Number of failing tests is the &amp;ldquo;effective&amp;rdquo; one (only the ones that fail and are not expected to fail)&amp;quot;.&lt;/li>
+&lt;/ul>
+
+&lt;/div>
+
+&lt;h2 id="serial-unit-tests-for-fullreflection-in-reflections-library-on-cavity-case">Serial unit tests for &lt;code>fullReflection&lt;/code> in &lt;code>reflections&lt;/code> library on &lt;code>[cavity]&lt;/code> case&lt;/h2>
+&lt;p>Tests were performed using &lt;a href="https://github.com/catchorg/Catch2">Catch2&lt;/a> version &lt;code>3.6.0&lt;/code> (rng-seed: &lt;code>3732512326&lt;/code>) with the following filters: &lt;code>[serial] [cavity] [#fullReflectionTests]&lt;/code>.&lt;/p></description></item><item><title>Unit tests for reflections - noReflection</title><link>https://foamscience.github.io/ODW-docs/tests/reflections/noreflectiontests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/tests/reflections/noreflectiontests/</guid><description>&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note:&lt;/h4>
+
+ &lt;p>The unit tests pages are automatically generated from the test reports. Some important points to mention:&lt;/p>
+&lt;ul>
+&lt;li>The random number generator is seeded with the same seed for parallel/serial runs for the same test case.&lt;/li>
+&lt;li>Number of passing tests is the &amp;ldquo;effective&amp;rdquo; one (including the ones that fail but are expected to fail)&amp;quot;.&lt;/li>
+&lt;li>Number of failing tests is the &amp;ldquo;effective&amp;rdquo; one (only the ones that fail and are not expected to fail)&amp;quot;.&lt;/li>
+&lt;/ul>
+
+&lt;/div>
+
+&lt;h2 id="serial-unit-tests-for-noreflection-in-reflections-library-on-cavity-case">Serial unit tests for &lt;code>noReflection&lt;/code> in &lt;code>reflections&lt;/code> library on &lt;code>[cavity]&lt;/code> case&lt;/h2>
+&lt;p>Tests were performed using &lt;a href="https://github.com/catchorg/Catch2">Catch2&lt;/a> version &lt;code>3.6.0&lt;/code> (rng-seed: &lt;code>3240269384&lt;/code>) with the following filters: &lt;code>[serial] [cavity] [#noReflectionTests]&lt;/code>.&lt;/p></description></item></channel></rss>

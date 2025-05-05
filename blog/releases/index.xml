@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Automated API and Unit testing Docs for OpenFOAM libs</title><link>https://foamscience.github.io/ODW-docs/blog/releases/</link><description>Recent content in Releases on Automated API and Unit testing Docs for OpenFOAM libs</description><generator>Hugo</generator><language>en</language><atom:link href="https://foamscience.github.io/ODW-docs/blog/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>A first release</title><link>https://foamscience.github.io/ODW-docs/blog/2025/05/05/a-first-release/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://foamscience.github.io/ODW-docs/blog/2025/05/05/a-first-release/</guid><description>&lt;h2 id="version-012-is-out">Version 0.1.2 is out!&lt;/h2>
+&lt;p>This version accommodates features offered by &lt;strong>FoamCD&lt;/strong> with OpenFOAM and OpenFOAM-reflections plugins turned on. Here is a changelog of the underlying FoamCD parser:&lt;/p>
+&lt;h3 id="foamcd-012-2025-05-04">FoamCD 0.1.2 (2025-05-04)&lt;/h3>
+&lt;h4 id="feat">Feat&lt;/h4>
+&lt;ul>
+&lt;li>support member type aliases&lt;/li>
+&lt;li>parse class fields&lt;/li>
+&lt;li>skip forward declarations in markdown generation&lt;/li>
+&lt;li>handle enclosed types&lt;/li>
+&lt;li>config generation reads existing configs first&lt;/li>
+&lt;/ul>
+&lt;h4 id="fix">Fix&lt;/h4>
+&lt;ul>
+&lt;li>skip forward declarations in class index pages&lt;/li>
+&lt;li>bug with method/field access specifiers&lt;/li>
+&lt;li>bug with reporting class children entities&lt;/li>
+&lt;li>enclosed entities names and scopes&lt;/li>
+&lt;li>markdown output for member fields&lt;/li>
+&lt;li>better handling of scope-resolution notation in method/function definition&lt;/li>
+&lt;/ul>
+&lt;h3 id="foamcd-011-2025-04-29">FoamCD 0.1.1 (2025-04-29)&lt;/h3>
+&lt;h4 id="feat-1">Feat&lt;/h4>
+&lt;ul>
+&lt;li>add ODW unit-test report -&amp;gt; markdown file&lt;/li>
+&lt;li>add plugin to extract information from self-reflecting OpenFOAM code&lt;/li>
+&lt;li>tree-sitter parser forced for unit tests&lt;/li>
+&lt;li>improved parsed docs and url pattern application&lt;/li>
+&lt;li>overridable config entries on generation&lt;/li>
+&lt;/ul>
+&lt;h4 id="fix-1">Fix&lt;/h4>
+&lt;ul>
+&lt;li>update config structure + add option to skip entities&lt;/li>
+&lt;li>repair plugin system&lt;/li>
+&lt;li>source file handling as absolute path in compile_commmands&lt;/li>
+&lt;li>handle relative include paths in compile_commands.json&lt;/li>
+&lt;/ul>
+&lt;h3 id="foamcd-010-2025-04-27">FoamCD 0.1.0 (2025-04-27)&lt;/h3>
+&lt;h4 id="breaking-change">BREAKING CHANGE&lt;/h4>
+&lt;ul>
+&lt;li>a non-null column in inheritance table, for&lt;br />
+access_level, is now required.&lt;/li>
+&lt;/ul>
+&lt;h4 id="feat-2">Feat&lt;/h4>
+&lt;ul>
+&lt;li>deprecation detection&lt;/li>
+&lt;li>specialize method docs URI&lt;/li>
+&lt;li>attach namespaces to entities + improved mapping file -&amp;gt; url&lt;/li>
+&lt;li>better detection of defaulted/deleted methods&lt;/li>
+&lt;li>contributers list from git&lt;/li>
+&lt;li>markdown frontend to database entities&lt;/li>
+&lt;li>basic git ops for author extraction&lt;/li>
+&lt;li>most popular compiler attributes&lt;/li>
+&lt;li>first implementation of a fallback tree-sitter parser&lt;/li>
+&lt;li>static, return_type and few other new db fields&lt;/li>
+&lt;li>update openfoam-plugin to adequetly parse RTS-features of OpenFOAM classes&lt;/li>
+&lt;li>add openfoam RTS class fetching to db&lt;/li>
+&lt;li>thorough function metadata extraction&lt;/li>
+&lt;li>proper inheritance, declaration-definition links and namespace tracking&lt;/li>
+&lt;li>first versions of openmp, openacc, and openfoam plugins&lt;/li>
+&lt;li>plugin mechanism to add feature detectors dynamically&lt;/li>
+&lt;li>add basic parsing and db exporting&lt;/li>
+&lt;/ul>
+&lt;h4 id="fix-2">Fix&lt;/h4>
+&lt;ul>
+&lt;li>prep plugins for publishing&lt;/li>
+&lt;li>unknown cursor name&lt;/li>
+&lt;li>signatures for class entities&lt;/li>
+&lt;li>improve constructor parsing&lt;/li>
+&lt;li>proper ctor/dtor signatures and (no) return types&lt;/li>
+&lt;li>URI handling in declaration/definitionfile templating&lt;/li>
+&lt;li>path normalization when generating markdown files&lt;/li>
+&lt;li>improve handling of existing database&lt;/li>
+&lt;li>logger bug in config generation&lt;/li>
+&lt;li>update default config&lt;/li>
+&lt;li>improve get_class_stats from codebase-wide database selections&lt;/li>
+&lt;li>avoid circular dependency byadding common constants file&lt;/li>
+&lt;li>detection of c++20 features&lt;/li>
+&lt;li>detection of c++17 features&lt;/li>
+&lt;li>detection of c++14 features&lt;/li>
+&lt;li>detection of c++11 features&lt;/li>
+&lt;/ul>
+&lt;h4 id="refactor">Refactor&lt;/h4>
+&lt;ul>
+&lt;li>prep for 1st published version + versioning&lt;/li>
+&lt;li>parser feature detection to get rid of horrible if-else chains&lt;/li>
+&lt;/ul></description></item></channel></rss>
